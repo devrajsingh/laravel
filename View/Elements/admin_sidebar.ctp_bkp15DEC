@@ -1,0 +1,105 @@
+<?php ?> 
+<!-- left menu starts -->
+<aside >
+        <div id="sidebar" class="nav-collapse">
+          <!-- sidebar menu start-->
+          <div class="leftside-navigation">
+            <ul class="sidebar-menu" id="nav-accordion">
+              <li>
+                <?php echo $this->Html->link('<i class="fa fa-user"></i>
+                  <span>Customer Detail</span>', array('controller'=>'Admins','action'=>'index'), array('escape'=>false));?>
+              </li>
+              <!-- <li class="sub-menu">
+                <?php echo $this->Html->link('<i class="fa fa-list"></i><span>Plans</span>',array('controller'=>'Admins', 'action'=>'PlanList'), array('escape'=>false) );?>
+                 <ul class="sub">
+                  <li><a href="#">Current Survey</a></li>
+                  <li><a href="#">New Survey</a></li>
+                  <li><a href="#">Survey history</a></li>
+                </ul> 
+              </li> -->
+			   <li>
+                <?php echo $this->Html->link('<i class="fa fa-book"></i>
+                  <span>NEWS</span>', array('controller'=>'Admins','action'=>'#'), array('escape'=>false));?>
+              </li>
+			  <li>
+                <?php echo $this->Html->link('<i class="fa fa-book"></i>
+                  <span>Blog</span>', array('controller'=>'Admins','action'=>'#'), array('escape'=>false));?>
+              </li>
+			  <li>
+                <?php echo $this->Html->link('<i class="fa fa-question"></i>
+                  <span>FAQ</span>', array('controller'=>'Admins','action'=>'#'), array('escape'=>false));?>
+              </li>
+			  <li>
+                <?php echo $this->Html->link('<i class="fa fa-info"></i>
+                  <span>Contact Info</span>', array('controller'=>'Admins','action'=>'#'), array('escape'=>false));?>
+              </li>
+              <?php /*?>
+              <li class="sub-menu">
+                <a href="javascript:;">
+                  <i class="fa fa-book"></i>
+                  <span>Message</span>
+                </a>
+                <!-- <ul class="sub">
+                  <li><a href="#">Site1</a></li>
+                  <li><a href="#">Site2</a></li>
+                  <li><a href="#">Site3</a></li>
+                </ul> -->
+              </li>
+              <li class="sub-menu">
+                <a href="javascript:;">
+                  <i class="fa fa-file-text-o"></i>
+                  <span>Team</span>
+                </a>
+                <!-- <ul class="sub">
+                  <li><a href="#">Invoice One</a></li>
+                  <li><a href="#">Sub Invoice</a></li>
+                </ul> -->
+              </li>
+              <li class="sub-menu">
+                <a href="javascript:;">
+                  <i class="fa fa-cogs"></i>
+                  <span>Statics</span>
+                </a>
+               <!--  <ul class="sub">
+                  <li><a href="#">First</a></li>
+                  <li><a href="#">Second</a></li>
+                  <li><a href="#">Third</a></li>
+                  <li><a href="#">Fourth</a></li>
+                </ul> -->
+              </li>
+              <li class="sub-menu">
+                <a href="javascript:;">
+                  <i class="fa fa-cogs"></i>
+                  <span>Online</span>
+                </a>
+               <!--  <ul class="sub">
+                  <li><a href="#">First</a></li>
+                  <li><a href="#">Second</a></li>
+                  <li><a href="#">Third</a></li>
+                  <li><a href="#">Fourth</a></li>
+                </ul> -->
+              </li>
+              <li class="sub-menu">
+                <a href="javascript:;">
+                  <i class="fa fa-cogs"></i>
+                  <span>Support</span>
+                </a>
+               <!--  <ul class="sub">
+                  <li><a href="#">First</a></li>
+                  <li><a href="#">Second</a></li>
+                  <li><a href="#">Third</a></li>
+                  <li><a href="#">Fourth</a></li>
+                </ul> -->
+              </li>
+              <!-- <li>
+                <a href="login.html">
+                  <i class="fa fa-user"></i>
+                  <span>Login Page</span>
+                </a>
+              </li> -->
+              <?php */ ?>
+            </ul>            </div>
+            <!-- sidebar menu end-->
+          </div>
+        </aside>
+<!-- left menu ends -->
